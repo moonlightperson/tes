@@ -587,8 +587,8 @@
 		const content = document.querySelector(".content-region .content");
 
 		const sections = [
-			{section: "Title", title: "My Stuff"},
-			{section: "General", renderSection: _ => [
+			{section: "Title", title: "Главная"},
+			{section: "Информация", renderSection: _ => [
 				createElement(`<div class="welcome-message">Welcome to my little Plugins and Themes Repository</div>`),
 				createElement(`<div class="divider"></div>`),
 				createElement(`<div class="welcome-details">On here you'll find all my Plugins and Themes that are hosted on my <a href="https://github.com/mwittrien/BetterDiscordAddons/" target="_blank">GitHub</a>.</div>`),
@@ -598,15 +598,15 @@
 				createElement(`<div class="donations"><a class="donation" href="https://www.paypal.me/MircoWittrien" target="_blank"><div class="donation-icon"><svg name="PayPal" width="100%" height="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M 5.6863929,0 C 5.1806043,0 4.7507198,0.3656279 4.6704813,0.85995389 L 1.6795909,19.673995 c -0.058746,0.371103 0.2309887,0.706911 0.6092555,0.706911 h 4.4338638 l 1.1121097,-7.006437 -0.033522,0.22009 c 0.078805,-0.494326 0.5072079,-0.859954 1.0129965,-0.859954 h 2.1061586 c 4.139443,0 7.378419,-1.667588 8.325519,-6.4919233 0.02866,-0.1432829 0.07434,-0.4183163 0.07434,-0.4183163 C 19.589638,4.0390606 19.318112,2.8290903 18.345211,1.7301106 17.276361,0.5193702 15.342278,0 12.867737,0 Z M 21.516831,7.8139196 c -1.028771,4.7498274 -4.3124,7.2629664 -9.522166,7.2629664 H 10.107139 L 8.6962314,24 H 11.76 c 0.442744,0 0.820329,-0.319405 0.889104,-0.753552 l 0.03498,-0.189482 0.705454,-4.428033 0.04519,-0.244868 c 0.06878,-0.434148 0.446338,-0.753554 0.887649,-0.753554 h 0.559699 c 3.620757,0 6.455196,-1.457472 7.283371,-5.677153 0.332416,-1.693603 0.172401,-3.113533 -0.64861,-4.1394384 z"/></svg></div><div class="donation-link">PayPal</div></a><a class="donation" href="https://www.patreon.com/MircoWittrien" target="_blank"><div class="donation-icon"><svg name="Patreon" width="100%" height="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M 0,-1.2209e-4 V 24 H 4.4021963 V -1.2209e-4 Z m 15.010145,0 c -4.974287,0 -9.020427,4.04121619 -9.020427,9.00819799 0,4.9565461 4.04614,8.9837411 9.020427,8.9837421 C 19.970866,17.991818 24,13.959406 24,9.0080759 24,4.0421376 19.969822,-1.2209e-4 15.010145,-1.2209e-4 Z"/></svg></div><div class="donation-link">Patreon</div></a></div>`),
 			]},
 			{section: "Separator"},
-			{section: "Plugins", renderSection: _ => [
+			{section: "Плагины", renderSection: _ => [
 				createAddonList("Plugins", ".plugin.js"),
 				createElement(`<div class="divider"></div>`),
 				createLibraryEntry()
 			]},
-			{section: "Themes", renderSection: _ => createAddonList("Themes", ".theme.css")},
+			{section: "Темы", renderSection: _ => createAddonList("Themes", ".theme.css")},
 			{section: "Separator"},
-			{section: "Invites", renderSection: _ => [
-				createInvite({invite: "Jx3TjNS", name: "DevilBro's Haus", details: "Support Server for all my Stuff", icon: "https://mwittrien.github.io/_res/imgs/db_logo.webp"}),
+			{section: "Сервера", renderSection: _ => [
+				createInvite({invite: "uNrknTUE4Y", name: "Developer's Discord", details: "General Discord", icon: "https://mwittrien.github.io/_res/imgs/db_logo.webp"})
 				createElement(`<div class="divider"></div>`),
 				createInvite({invite: "0Tmfo5ZbORCRqbAd", name: "BetterDiscord", details: "First Support Server for BD", icon: "https://mwittrien.github.io/_res/imgs/bd1_logo.webp"}),
 				createInvite({invite: "sbA3xCJ", name: "BetterDiscord2", details: "Second Support Server for BD", icon: "https://mwittrien.github.io/_res/imgs/bd2_logo.webp"})
