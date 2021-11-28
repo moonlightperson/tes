@@ -608,8 +608,6 @@
 			{section: "Separator"},
 			{section: "Invites", renderSection: _ => [
 				createInvite({invite: "uNrknTUE4Y", name: "Developer's Discord", details: "General Discord", icon: "https://mwittrien.github.io/_res/imgs/db_logo.webp"})
-				сreateElement(`<div class="divider"></div>`),
-				createInvite({invite: "Jx3TjNS", name: "DevilBro's Haus", details: "Support Server", icon: "https://mwittrien.github.io/_res/imgs/db_logo.webp"}),
 				createElement(`<div class="divider"></div>`),
 				createInvite({invite: "0Tmfo5ZbORCRqbAd", name: "BetterDiscord", details: "First Support Server for BD", icon: "https://mwittrien.github.io/_res/imgs/bd1_logo.webp"}),
 				createInvite({invite: "sbA3xCJ", name: "BetterDiscord2", details: "Second Support Server for BD", icon: "https://mwittrien.github.io/_res/imgs/bd2_logo.webp"})
