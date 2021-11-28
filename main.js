@@ -587,8 +587,8 @@
 		const content = document.querySelector(".content-region .content");
 
 		const sections = [
-			{section: "Title", title: "Информация"},
-			{section: "Главное", renderSection: _ => [
+			{section: "Title", title: "General"},
+			{section: "Information", renderSection: _ => [
 				createElement(`<div class="welcome-message">Добро пожаловать на сайт моего Репозитория</div>`),
 				createElement(`<div class="divider"></div>`),
 				createElement(`<div class="welcome-details">Тут вы можете лучшие плагины и темы во всем BetterDiscord<a href="https://github.com/moonlightperson/BetterDiscordAddons/" target="_blank">GitHub</a>.</div>`),
@@ -603,9 +603,9 @@
 				createElement(`<div class="divider"></div>`),
 				createLibraryEntry()
 			]},
-			{section: "Темы", renderSection: _ => createAddonList("Themes", ".theme.css")},
+			{section: "Themes", renderSection: _ => createAddonList("Themes", ".theme.css")},
 			{section: "Separator"},
-			{section: "Сервера", renderSection: _ => [
+			{section: "Invites", renderSection: _ => [
 				createInvite({invite: "uNrknTUE4Y", name: "Developer's Discord", details: "General Discord", icon: "https://mwittrien.github.io/_res/imgs/db_logo.webp"})
 				сreateElement(`<div class="divider"></div>`),
 				createInvite({invite: "Jx3TjNS", name: "DevilBro's Haus", details: "Support Server", icon: "https://mwittrien.github.io/_res/imgs/db_logo.webp"}),
