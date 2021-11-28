@@ -1,9 +1,9 @@
 window.DownloadApi = {
 	converter: {
-		library: _ => `https://raw.githubusercontent.com/moonlightperson/BetterDiscordAddons/Library/0BDFDB.plugin.js `,
-		plugin: arg => `https://raw.githubusercontent.com/moonlightperson/BetterDiscordAddons/Plugins/${arg}/${arg}.plugin.js`,
-		theme: arg => `https://raw.githubusercontent.com/moonlightperson/BetterDiscordAddons/Themes/${arg}/${arg}.theme.css`,
-		url: arg => arg = arg.startsWith("https://") || arg.startsWith("http://") ? arg : `https://raw.githubusercontent.com/moonlightperson/BetterDiscordAddons/${arg}`
+		library: _ => `https://raw.githubusercontent.com/moonlightperson/BetterDiscordAddons/master/Library/0BDFDB.plugin.js `,
+		plugin: arg => `https://raw.githubusercontent.com/moonlightperson/BetterDiscordAddons/master/Plugins/${arg}/${arg}.plugin.js`,
+		theme: arg => `https://raw.githubusercontent.com/moonlightperson/BetterDiscordAddons/master/Themes/${arg}/${arg}.theme.css`,
+		url: arg => arg = arg.startsWith("https://") || arg.startsWith("http://") ? arg : `https://raw.githubusercontent.com/moonlightperson/BetterDiscordAddons/master/${arg}`
 	},
 	convert: (parameterString, error) => {
 		if (typeof parameterString == "string") for (let parameter in window.DownloadApi.converter) {
